@@ -25,12 +25,12 @@ int main()
     printf("\n");
 
     printf("== Your Character Stats ==\n");
-    printf("┌──────────────────────────┐\n");
+    printf("┌────────────────────────────┐\n");
     printf("│ Name: %-10s              │\n", name);
     printf("│ Max HP: %-10d            │\n", maxHP);
     printf("│ Attack power: %-10d      │\n", attack_power);
     printf("│ Defense: %-10d           │\n", defense);
     printf("│ Level: %-10d             │\n", lvl);
-    printf("└──────────────────────────┘\n");
+    printf("└────────────────────────────┘\n");
     return 0;
 }
